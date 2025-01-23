@@ -107,7 +107,7 @@ export default function ContactPage() {
         <Card>
           <CardContent className="p-0">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.6625139803735!2d-87.96111548451425!3d43.016654379147876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8805177af1530aa9%3A0x9c8f9e3c3c3c3c3c!2s3400%20S%2043rd%20St%2C%20Milwaukee%2C%20WI%2053234!5e0!3m2!1sen!2sus!4v1625589876543!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.3725937742042!2d77.00714417790358!3d29.005957303780242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390db07841ba9261%3A0x556fb7431d50cf41!2s20%2C%20Purkhas-Ganaur-Sonipat%20Rd%2C%20Jamalpura%2C%20Sonipat%2C%20Haryana%20131001!5e0!3m2!1sen!2sin!4v1737615472126!5m2!1sen!2sin"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -118,8 +118,11 @@ export default function ContactPage() {
             <div className="p-6 space-y-4">
               <div>
                 <h3 className="font-semibold text-lg">Address</h3>
-                <p>3400 S. 43rd St.</p>
-                <p>Milwaukee, WI 53234</p>
+                <p>National College for Skill Development and Training</p>
+                <p>
+                  Sector 20, Purkhas Road, Near Sugar Mill, Sonipat, Haryana
+                  131001
+                </p>
               </div>
               <div className="space-y-1">
                 <p>

@@ -11,8 +11,11 @@ export default function Footer() {
               resource learners at backgrounds.
             </p>
             <div className="flex items-center gap-2 text-gray-400">
-              <MapPin className="w-5 h-5" />
-              <span>Your Place</span>
+              <MapPin className="w-12 h-12" />
+              <span>
+                National College for Skill Development and Training Sector 20,
+                Purkhas Road, Near Sugar Mill, Sonipat, Haryana 131001
+              </span>
             </div>
             <div className="flex items-center gap-2 text-gray-400">
               <Phone className="w-5 h-5" />
@@ -23,22 +26,28 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Campus</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>Academics</li>
-              <li>Planning & Admission</li>
-              <li>Campus Safety</li>
-              <li>Faculty</li>
-              <li>Human Resources</li>
+              <li className="hover:text-white cursor-pointer">Academics</li>
+              <li className="hover:text-white cursor-pointer">
+                Planning & Admission
+              </li>
+              <li className="hover:text-white cursor-pointer">Campus Safety</li>
+              <li className="hover:text-white cursor-pointer">Faculty</li>
+              <li className="hover:text-white cursor-pointer">
+                Human Resources
+              </li>
             </ul>
           </div>
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Our Campus</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>About Us</li>
-              <li>Admission</li>
-              <li>Scholarship</li>
-              <li>Tuition Fee</li>
-              <li>Fitness Athletics</li>
+              <li className="hover:text-white cursor-pointer">About Us</li>
+              <li className="hover:text-white cursor-pointer">Admission</li>
+              <li className="hover:text-white cursor-pointer">Scholarship</li>
+              <li className="hover:text-white cursor-pointer">Tuition Fee</li>
+              <li className="hover:text-white cursor-pointer">
+                Fitness Athletics
+              </li>
             </ul>
           </div>
         </div>

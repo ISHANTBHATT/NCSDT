@@ -5,12 +5,21 @@ import Image from "next/image";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 const images = [
-  { src: "/images/1.jpg", alt: "Campus building" },
-  { src: "/images/2.jpg", alt: "Students in class" },
-  { src: "/images/3.jpg", alt: "Library" },
-  { src: "/images/1.jpg", alt: "Sports field" },
-  { src: "/images/2.jpg", alt: "Laboratory" },
-  { src: "/images/3.jpg", alt: "Student life" },
+  { src: "/images/7.jpg", alt: "Campus building" },
+  { src: "/images/8.jpg", alt: "Students in class" },
+  { src: "/images/9.jpg", alt: "Library" },
+  { src: "/images/10.jpg", alt: "Sports field" },
+  { src: "/images/11.jpg", alt: "Laboratory" },
+  { src: "/images/12.jpg", alt: "Student life" },
+  { src: "/images/13.jpg", alt: "Student life" },
+  { src: "/images/14.jpg", alt: "Student life" },
+  { src: "/images/15.jpg", alt: "Student life" },
+  { src: "/images/16.jpg", alt: "Student life" },
+  { src: "/images/17.jpg", alt: "Student life" },
+  { src: "/images/18.jpg", alt: "Student life" },
+  { src: "/images/19.jpg", alt: "Student life" },
+  { src: "/images/20.jpg", alt: "Student life" },
+  { src: "/images/21.jpg", alt: "Student life" },
 ];
 
 export default function GalleryPage() {

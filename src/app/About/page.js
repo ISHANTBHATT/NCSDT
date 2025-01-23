@@ -111,7 +111,7 @@ export default function AboutPage() {
       <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
         <div>
           <Image
-            src="/images/1.jpg"
+            src="/images/7.jpg"
             alt="College campus"
             width={600}
             height={400}
@@ -248,13 +248,13 @@ export default function AboutPage() {
       <div>
         <h2 className="text-3xl font-semibold mb-6 text-center">Campus Life</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => (
+          {[21, 18, 17, 16, 15, 11, 9, 12].map((i) => (
             <Image
               key={i}
-              src={`/placeholder.svg?height=200&width=200&text=Campus+${i}`}
+              src={`/images/${i}.jpg`}
               alt={`Campus life ${i}`}
-              width={200}
-              height={200}
+              width={300}
+              height={300}
               className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
             />
           ))}
