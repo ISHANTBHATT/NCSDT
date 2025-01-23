@@ -5,7 +5,7 @@ import { Features } from "./Features";
 import { ApplyForm } from "./ApplyForm";
 import Campus from "./Campus";
 import Events from "./Events";
-import HowToApply from "./HowtoApply";
+import HowToApply from "./HowToApply";
 import Scholarship from "./Scholarship";
 import Testimonials from "./Testimonials";
 
