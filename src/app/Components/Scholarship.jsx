@@ -99,7 +99,7 @@ function Scholarship() {
     <div>
       <section className="relative h-[500px] flex items-center justify-center text-white">
         <Image
-          src="/images/about.jpg"
+          src="/images/21.jpg"
           alt="Students studying"
           fill
           className="object-cover"
@@ -154,7 +154,7 @@ function Scholarship() {
             </div>
             <div className="relative z-[1]">
               <Image
-                src="/images/students.jpg"
+                src="/images/14.jpg"
                 alt="Student with books"
                 width={500}
                 height={600}

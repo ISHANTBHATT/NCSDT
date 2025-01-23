@@ -154,7 +154,7 @@ export function ApplyForm() {
         >
           <div className="absolute " />
           <img
-            src="/images/about.jpg"
+            src="/images/9.jpg"
             alt="Students"
             className="relative rounded-lg w-3/4 h-[500px]"
           />

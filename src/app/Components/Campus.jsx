@@ -46,7 +46,11 @@ export default function Campus() {
             transition={{ duration: 1 }}
             className="relative"
           >
-            <img src="/images/4.jpg" alt="Campus Life" className="rounded-xl" />
+            <img
+              src="/images/19.jpg"
+              alt="Campus Life"
+              className="rounded-xl"
+            />
             <motion.button
               // whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}

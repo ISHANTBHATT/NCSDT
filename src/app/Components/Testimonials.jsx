@@ -8,7 +8,7 @@ const testimonials = [
   {
     name: "Jessica",
     role: "Artist and Instructor",
-    image: "/images/students.jpg",
+    image: "/images/student2.jpg",
     rating: 5,
     reviewCount: 112,
     text: "Lorem ipsum dolor sit amet consectetur. Aenean pulvinar risus vivamus interdum. Nulla risus consectetur risus fermentum mauris ac felis. Aenean suspendisse nascetur morbi dolor.",
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Michael",
     role: "Software Developer",
-    image: "/images/students.jpg",
+    image: "/images/student3.jpg",
     rating: 4,
     reviewCount: 89,
     text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
@@ -24,7 +24,7 @@ const testimonials = [
   {
     name: "Sarah",
     role: "Marketing Specialist",
-    image: "/images/students.jpg",
+    image: "/images/person2.jpg",
     rating: 5,
     reviewCount: 134,
     text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
