@@ -336,8 +336,8 @@ export function Header() {
     <header className="w-full bg-white">
       <div className="bg-[#2A2A8F] text-white py-2 px-4">
         <div className="container mx-auto flex justify-between text-sm">
-          <a href="mailto:info@hce.com" className="hover:text-gray-200">
-            info@hce.com
+          <a href="mailto:info@ncsdt.com" className="hover:text-gray-200">
+            info@ncsdt.com
           </a>
           <div className="flex gap-4">
             <a href="tel:+919896507237" className="hover:text-gray-200">
