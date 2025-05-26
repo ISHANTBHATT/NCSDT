@@ -135,10 +135,10 @@ export default function ContactPage() {
                 </p>
                 <p>
                   <a
-                    href="mailto:admissions@ncsdt.edu"
+                    href="mailto:info@ncsdt.com"
                     className="text-primary hover:underline"
                   >
-                    admissions@ncsdt.edu
+                    info@ncsdt.com
                   </a>
                 </p>
               </div>
