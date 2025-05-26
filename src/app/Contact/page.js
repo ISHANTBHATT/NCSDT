@@ -127,18 +127,18 @@ export default function ContactPage() {
               <div className="space-y-1">
                 <p>
                   <a
-                    href="tel:414-382-6000"
+                    href="tel:+919896507237"
                     className="text-primary hover:underline"
                   >
-                    414-382-6000
+                    +91 9896507237
                   </a>
                 </p>
                 <p>
                   <a
-                    href="mailto:admissions@alverno.edu"
+                    href="mailto:admissions@ncsdt.edu"
                     className="text-primary hover:underline"
                   >
-                    admissions@alverno.edu
+                    admissions@ncsdt.edu
                   </a>
                 </p>
               </div>

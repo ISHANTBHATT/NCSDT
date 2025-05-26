@@ -340,8 +340,8 @@ export function Header() {
             info@hce.com
           </a>
           <div className="flex gap-4">
-            <a href="tel:+919999999999" className="hover:text-gray-200">
-              +91 9999999999
+            <a href="tel:+919896507237" className="hover:text-gray-200">
+              +91 9896507237
             </a>
             <span>
               National College for Skill Development and Training Sector 20,
