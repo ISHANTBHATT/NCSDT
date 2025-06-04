@@ -204,7 +204,7 @@ export default function Events() {
                 >
                   Admission
                 </motion.button>
-                <motion.button
+                {/* <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="px-4 py-2 hover:bg-gray-100 rounded"
@@ -217,7 +217,7 @@ export default function Events() {
                   className="px-4 py-2 hover:bg-gray-100 rounded"
                 >
                   Latest
-                </motion.button>
+                </motion.button> */}
               </div>
 
               <div className="space-y-8">
