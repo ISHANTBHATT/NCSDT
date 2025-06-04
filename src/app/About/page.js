@@ -129,34 +129,63 @@ export default function AboutPage() {
               <h3 className="text-2xl font-semibold mb-2">Our Mission</h3>
               <p className="mb-2">
                 To provide exceptional education and foster innovation in a
-                diverse and inclusive environment. Lorem Ipsum is simply dummy
-                text of the printing and typesetting industry.
+                diverse and inclusive environment. We are committed to
+                empowering students with knowledge, skills, and values that
+                prepare them for successful careers and meaningful contributions
+                to society.
               </p>
               <p>
-                Lorem Ipsum has been the industry's standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book.
+                Our mission extends beyond traditional classroom learning to
+                include hands-on experience, industry partnerships, and research
+                opportunities that bridge the gap between academic theory and
+                real-world application. We strive to create global citizens who
+                are equipped to tackle tomorrow's challenges with confidence and
+                integrity.
               </p>
             </TabsContent>
             <TabsContent value="vision" className="mt-4">
               <h3 className="text-2xl font-semibold mb-2">Our Vision</h3>
               <p className="mb-2">
                 To be a leading institution that shapes the future through
-                education, research, and community engagement.
+                education, research, and community engagement. We aspire to be
+                recognized globally for our academic excellence and innovative
+                approach to higher education.
               </p>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s.
+                Our vision encompasses creating a transformative educational
+                experience that nurtures critical thinking, creativity, and
+                leadership skills. We aim to build a sustainable future by
+                producing graduates who become change-makers in their respective
+                fields and contribute positively to society's advancement.
               </p>
             </TabsContent>
             <TabsContent value="values" className="mt-4">
               <h3 className="text-2xl font-semibold mb-2">Our Values</h3>
               <ul className="list-disc list-inside">
-                <li>Excellence in teaching and learning</li>
-                <li>Diversity and inclusion</li>
-                <li>Innovation and creativity</li>
-                <li>Community engagement</li>
+                <li>
+                  Excellence in teaching and learning through continuous
+                  improvement and innovation
+                </li>
+                <li>
+                  Diversity and inclusion that celebrates different perspectives
+                  and backgrounds
+                </li>
+                <li>
+                  Innovation and creativity that encourages original thinking
+                  and problem-solving
+                </li>
+                <li>
+                  Community engagement that builds strong partnerships with
+                  local and global communities
+                </li>
+                <li>
+                  Integrity and ethical conduct in all our academic and
+                  administrative practices
+                </li>
+                <li>
+                  Student-centered approach that prioritizes individual growth
+                  and success
+                </li>
               </ul>
             </TabsContent>
           </Tabs>

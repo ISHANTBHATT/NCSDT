@@ -73,21 +73,21 @@ export default function HowToApply() {
       id: "01",
       title: "Create an Account",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Sodales id id nunc adipiscing.",
+        "Visit our official website and register using your email address and basic personal information.",
       icon: GraduationCap,
     },
     {
       id: "02",
       title: "Online Application",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Eu tristique sed vivamus morbi.",
+        "Complete the digital application form with your academic history and program preferences.",
       icon: FileText,
     },
     {
       id: "03",
       title: "Programs & Requirements",
       description:
-        "Lorem ipsum dolor sit amet consectetur. Lacus mi ultrices commodo dignissim.",
+        "Review available courses and ensure you meet the eligibility criteria for your chosen specialization.",
       icon: ClipboardList,
     },
   ];

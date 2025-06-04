@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const coursesData = {
   undergraduate: {
@@ -99,9 +100,11 @@ export default async function SubItemPage({ params }) {
       <div className="md:w-1/2 bg-gray-50 p-4 lg:p-20  ">
         <h1 className="text-2xl font-bold">{data.title}</h1>
         <p className="mt-4 text-lg">{data.description}</p>
-        <button className="mt-6 px-4 py-2 bg-red-600 text-white rounded-lg">
-          Learn more about {data.title}
-        </button>
+        <Link href="/Contact">
+          <button className="mt-6 px-4 py-2 bg-red-600 text-white rounded-lg">
+            Learn more about {data.title}
+          </button>
+        </Link>
       </div>
       <div className="md:w-1/2 ">
         <div className="block lg:absolute top-20 left-[50%]">

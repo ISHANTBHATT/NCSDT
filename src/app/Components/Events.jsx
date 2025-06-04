@@ -226,7 +226,11 @@ export default function Events() {
                     <div className="text-green-500 text-xl">3</div>
                     <div className="text-gray-500 text-sm">Aug</div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet consectetur.</p>
+                  <p>
+                    Applications for the upcoming academic session are now open.
+                    Submit your completed application along with required
+                    documents before the deadline to secure your admission.
+                  </p>
                 </div>
 
                 <div className="flex gap-4 border-b-2 py-4">

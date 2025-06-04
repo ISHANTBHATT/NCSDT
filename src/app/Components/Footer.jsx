@@ -1,10 +1,32 @@
 import { MapPin, Phone } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
+  const items = [
+    { title: "BA Pass", href: "/courses/undergraduate/ba-pass" },
+    { title: "B.Sc Medical", href: "/courses/undergraduate/bsc-medical" },
+    {
+      title: "B.Sc Non-Medical",
+      href: "/courses/undergraduate/bsc-non-medical",
+    },
+    { title: "B.Com Pass", href: "/courses/undergraduate/bcom-pass" },
+    { title: "B.Com Hons", href: "/courses/undergraduate/bcom-hons" },
+    { title: "BBA", href: "/courses/undergraduate/bba" },
+  ];
+
+  const graduate = [
+    { title: "M.Sc Chemistry", href: "/courses/graduate/msc-chemistry" },
+    { title: "M.Sc Physics", href: "/courses/graduate/msc-physics" },
+    { title: "M.Sc Math", href: "/courses/graduate/msc-math" },
+    { title: "M.Com", href: "/courses/graduate/mcom" },
+    { title: "M.A English", href: "/courses/graduate/ma-english" },
+    { title: "M.A Hindi", href: "/courses/graduate/ma-hindi" },
+    { title: "M.A History", href: "/courses/graduate/ma-history" },
+  ];
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           <div>
             <p className="mb-4">
               We are passionate education dedicated to providing high-quality
@@ -24,30 +46,46 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Campus</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li className="hover:text-white cursor-pointer">Academics</li>
-              <li className="hover:text-white cursor-pointer">
-                Planning & Admission
-              </li>
-              <li className="hover:text-white cursor-pointer">Campus Safety</li>
-              <li className="hover:text-white cursor-pointer">Faculty</li>
-              <li className="hover:text-white cursor-pointer">
-                Human Resources
-              </li>
+            <h3 className="text-lg font-semibold mb-4">Useful Menu</h3>
+            <ul className=" text-gray-400 flex flex-col gap-2">
+              <Link href="/">
+                <li className="hover:text-white cursor-pointer">Home</li>
+              </Link>
+              <Link href="/About">
+                <li className="hover:text-white cursor-pointer">About</li>
+              </Link>
+              <Link href="/Gallery">
+                <li className="hover:text-white cursor-pointer">Gallery</li>
+              </Link>
+              <Link href="/Contact">
+                <li className="hover:text-white cursor-pointer">Contact</li>
+              </Link>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Campus</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li className="hover:text-white cursor-pointer">About Us</li>
-              <li className="hover:text-white cursor-pointer">Admission</li>
-              <li className="hover:text-white cursor-pointer">Scholarship</li>
-              <li className="hover:text-white cursor-pointer">Tuition Fee</li>
-              <li className="hover:text-white cursor-pointer">
-                Fitness Athletics
-              </li>
+            <h3 className="text-lg font-semibold mb-4">Undergraduate Course</h3>
+            <ul className="flex flex-col gap-2 text-gray-400">
+              {items.map((item) => (
+                <Link key={item.title} href={item.href}>
+                  <li className="hover:text-white cursor-pointer">
+                    {item.title}
+                  </li>
+                </Link>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Graduate Course</h3>
+            <ul className="flex flex-col gap-2 text-gray-400">
+              {graduate.map((item) => (
+                <Link key={item.title} href={item.href}>
+                  <li className="hover:text-white cursor-pointer">
+                    {item.title}
+                  </li>
+                </Link>
+              ))}
             </ul>
           </div>
         </div>

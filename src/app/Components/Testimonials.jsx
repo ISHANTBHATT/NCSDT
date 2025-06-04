@@ -11,7 +11,7 @@ const testimonials = [
     image: "/images/student2.jpg",
     rating: 5,
     reviewCount: 112,
-    text: "Lorem ipsum dolor sit amet consectetur. Aenean pulvinar risus vivamus interdum. Nulla risus consectetur risus fermentum mauris ac felis. Aenean suspendisse nascetur morbi dolor.",
+    text: "The programs at this college transformed my creative journey completely. The instructors provided personalized guidance that helped me develop both technical skills and artistic vision. The hands-on approach and supportive community made learning enjoyable and effective. I gained confidence in my abilities and built a strong foundation for my career in the arts.",
   },
   {
     name: "Michael",
@@ -19,7 +19,7 @@ const testimonials = [
     image: "/images/student3.jpg",
     rating: 4,
     reviewCount: 89,
-    text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    text: "The technical curriculum here is outstanding and truly industry-relevant. The coding bootcamps and project-based learning approach gave me real-world experience that employers value. The career support team helped me land my dream job at a top tech company. The skills I learned here continue to serve me well in my professional development.",
   },
   {
     name: "Sarah",
@@ -27,7 +27,7 @@ const testimonials = [
     image: "/images/person2.jpg",
     rating: 5,
     reviewCount: 134,
-    text: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+    text: "This college's marketing program perfectly blends creativity with analytical thinking. The professors are industry experts who bring real case studies into the classroom. The internship opportunities and networking events opened doors I never expected. I graduated with confidence and a portfolio that impressed every employer I interviewed with.",
   },
 ];
 

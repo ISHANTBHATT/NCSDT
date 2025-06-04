@@ -115,13 +115,15 @@ function Scholarship() {
             Scholarships and Financial Aid
           </h2>
           <p className="mb-8">
-            Lorem ipsum dolor sit amet consectetur. Et pharetra netus purus
-            pretium lobortis. Laoreet congue consectetur magna et ipsum aliquam
-            arch. Elit fames aliquam at ut urna malesuada bibendum.
+            We believe education should be accessible to all deserving students.
+            Our comprehensive scholarship program includes merit-based awards,
+            need-based assistance, and special grants for outstanding achievers.
+            Financial aid counselors work individually with students to create
+            affordable payment plans and explore all available funding options.
           </p>
-          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+          {/* <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
             <Button variant="secondary">Read More →</Button>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </section>
 
@@ -172,31 +174,36 @@ function Scholarship() {
               B Tech Specialization in India
             </h2>
             <p className="text-gray-600">
-              Lorem ipsum dolor sit amet consectetur. Aenean pulvinar risus
-              vivamus interdum. Nulla risus consectetur risus fermentum mauris
-              ac felis. Aenean suspendisse nascetur morbi dolor.
+              Our B Tech programs combine theoretical knowledge with practical
+              industry experience. Students work with cutting-edge technology
+              and equipment under expert faculty guidance. The curriculum is
+              designed to meet current industry standards and prepare graduates
+              for successful careers in engineering and technology sectors. Our
+              partnerships with leading companies provide excellent internship
+              and placement opportunities.
             </p>
             <ul className="space-y-2">
-              {["Lorem ipsum dolor sit", "Lorem ipsum dolor sit"].map(
-                (item, index) => (
-                  <motion.li
-                    key={item}
-                    initial={{ opacity: 0, x: 20 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    className="flex items-center gap-2"
-                  >
-                    <span className="w-2 h-2 bg-emerald-600 rounded-full" />
-                    {item}
-                  </motion.li>
-                )
-              )}
+              {[
+                "Industry-aligned curriculum with latest technology",
+                "Hands-on training in state-of-the-art laboratories",
+              ].map((item, index) => (
+                <motion.li
+                  key={item}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="flex items-center gap-2"
+                >
+                  <span className="w-2 h-2 bg-emerald-600 rounded-full" />
+                  {item}
+                </motion.li>
+              ))}
             </ul>
-            <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+            {/* <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Button className="bg-emerald-600 hover:bg-emerald-700">
                 Read More →
               </Button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </section>

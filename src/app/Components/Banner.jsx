@@ -188,6 +188,7 @@ import { useState, useEffect } from "react";
 import { Play, ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const carouselImages = [
   {
@@ -295,9 +296,11 @@ export function Banner() {
             transition={{ duration: 0.5, delay: 1 }}
             className="flex items-center gap-6"
           >
-            <Button className="bg-green-500 hover:bg-green-600">
-              View Our Program
-            </Button>
+            <Link href="/programmes/computers/bca">
+              <Button className="bg-green-500 hover:bg-green-600">
+                View Our Program
+              </Button>
+            </Link>
             {/* <Button
               variant="outline"
               className="bg-transparent text-white border-white hover:bg-white/10"
