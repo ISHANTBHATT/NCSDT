@@ -99,7 +99,7 @@ function Scholarship() {
     <div>
       <section className="relative h-[500px] flex items-center justify-center text-white">
         <Image
-          src="/images/21.jpg"
+          src="/images/12.jpg"
           alt="Students studying"
           fill
           className="object-cover"

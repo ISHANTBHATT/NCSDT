@@ -277,7 +277,7 @@ export default function AboutPage() {
       <div>
         <h2 className="text-3xl font-semibold mb-6 text-center">Campus Life</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {[21, 18, 17, 16, 15, 11, 9, 12].map((i) => (
+          {[19, 14, 17, 16, 15, 11, 9, 12].map((i) => (
             <Image
               key={i}
               src={`/images/${i}.jpg`}

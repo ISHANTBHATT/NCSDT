@@ -16,10 +16,10 @@ const images = [
   { src: "/images/15.jpg", alt: "Student life" },
   { src: "/images/16.jpg", alt: "Student life" },
   { src: "/images/17.jpg", alt: "Student life" },
-  { src: "/images/18.jpg", alt: "Student life" },
+  // { src: "/images/18.jpg", alt: "Student life" },
   { src: "/images/19.jpg", alt: "Student life" },
   { src: "/images/20.jpg", alt: "Student life" },
-  { src: "/images/21.jpg", alt: "Student life" },
+  // { src: "/images/21.jpg", alt: "Student life" },
 ];
 
 export default function GalleryPage() {
