@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Footer() {
   const items = [
     { title: "BA Pass", href: "/courses/undergraduate/ba-pass" },
-    { title: "B.Sc Medical", href: "/courses/undergraduate/bsc-medical" },
-    {
-      title: "B.Sc Non-Medical",
-      href: "/courses/undergraduate/bsc-non-medical",
-    },
+    // { title: "B.Sc Medical", href: "/courses/undergraduate/bsc-medical" },
+    // {
+    //   title: "B.Sc Non-Medical",
+    //   href: "/courses/undergraduate/bsc-non-medical",
+    // },
     { title: "B.Com Pass", href: "/courses/undergraduate/bcom-pass" },
     { title: "B.Com Hons", href: "/courses/undergraduate/bcom-hons" },
     { title: "BBA", href: "/courses/undergraduate/bba" },

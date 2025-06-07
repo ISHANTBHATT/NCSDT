@@ -21,13 +21,13 @@ export default function Campus() {
               the various aspects of campus life that contribute to a
               well-rounded college experience.
             </p>
-            <p className="mb-8 text-white/80">
+            {/* <p className="mb-8 text-white/80">
               College campus life is a multifaceted experience that offers
               students the chance to grow academically, personally, and
               socially. By taking advantage of the resources and opportunities
               available, students can make the most of their time on campus and
               prepare for their future endeavors.
-            </p>
+            </p> */}
             <Link href="/About">
               <motion.button
                 whileHover={{ scale: 1.05 }}
