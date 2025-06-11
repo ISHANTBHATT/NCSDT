@@ -20,6 +20,8 @@ const images = [
   { src: "/images/19.jpg", alt: "Student life" },
   { src: "/images/20.jpg", alt: "Student life" },
   // { src: "/images/21.jpg", alt: "Student life" },
+  { src: "/images/22.jpeg", alt: "Student life" },
+  { src: "/images/23.jpeg", alt: "Student life" },
 ];
 
 export default function GalleryPage() {
