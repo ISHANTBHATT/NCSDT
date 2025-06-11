@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 
 function CountUp() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-16">
+    <div className="grid grid-col-1 md:grid-cols-2 lg::grid-cols-4 gap-8 mb-16">
       {[
         {
           value: 285,
