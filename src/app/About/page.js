@@ -142,6 +142,9 @@ export default function AboutPage() {
                 are equipped to tackle tomorrow's challenges with confidence and
                 integrity.
               </p>
+              <p className="mt-6 font-semibold">
+                S.K Prasad <br /> (Director)
+              </p>
             </TabsContent>
             <TabsContent value="vision" className="mt-4">
               <h3 className="text-2xl font-semibold mb-2">Our Vision</h3>
@@ -199,7 +202,7 @@ export default function AboutPage() {
           <Card>
             <CardContent className="p-6">
               <CalendarDays className="w-12 h-12 mb-4 text-primary" />
-              <h3 className="font-bold text-lg mb-2">1950 - College Founded</h3>
+              <h3 className="font-bold text-lg mb-2">1987 - College Founded</h3>
               <p className="text-sm text-muted-foreground">
                 Our institution was established with a vision to provide quality
                 education.
@@ -209,7 +212,7 @@ export default function AboutPage() {
           <Card>
             <CardContent className="p-6">
               <Book className="w-12 h-12 mb-4 text-primary" />
-              <h3 className="font-bold text-lg mb-2">1975 - New Library</h3>
+              <h3 className="font-bold text-lg mb-2">1990 - New Library</h3>
               <p className="text-sm text-muted-foreground">
                 A state-of-the-art library was inaugurated to support research
                 and learning.
