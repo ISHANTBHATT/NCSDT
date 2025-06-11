@@ -502,7 +502,7 @@ function MultiLevelDropdown({ items, title }) {
       </button>
 
       {isOpen && (
-        <div className="absolute left-0 top-7 z-50 mt-2 min-w-[220px] rounded-md border bg-popover p-1 shadow-md bg-[#F39323]">
+        <div className="absolute left-0 top-7 z-50 mt-2 min-w-[220px] rounded-md border  p-1 shadow-md bg-[#F39323]">
           {items.map((item) => (
             <div
               key={item.title}
@@ -514,7 +514,7 @@ function MultiLevelDropdown({ items, title }) {
                 <ChevronRight className="h-4 w-4" />
               </div>
               {activeSubmenu === item.title && (
-                <div className="absolute left-full top-0 z-50 min-w-[220px] rounded-md border bg-popover p-1 shadow-md bg-[#F39323]">
+                <div className="absolute left-full top-0 z-50 min-w-[220px] rounded-md border  p-1 shadow-md bg-[#F39323]">
                   {item.items.map((subItem) => (
                     <Link
                       key={subItem.title}
