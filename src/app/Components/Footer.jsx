@@ -1,4 +1,4 @@
-import { MapPin, Phone } from "lucide-react";
+import { Facebook, MapPin, Phone } from "lucide-react";
 import Link from "next/link";
 
 export default function Footer() {
@@ -26,8 +26,8 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white pt-16 pb-8">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
-          <div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
+          <div className="flex flex-col gap-4 col-span-2">
             <p className="mb-4">
               We are passionate education dedicated to providing high-quality
               resource learners at backgrounds.
@@ -42,6 +42,15 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-gray-400">
               <Phone className="w-5 h-5" />
               <span>+91 9896507237</span>
+            </div>
+            <div className="mt-2">
+              <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
+              <Link
+                href="https://www.facebook.com/people/National-College-for-Skill-Development-and-Training/61576977344150/"
+                target="_blank"
+              >
+                <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+              </Link>
             </div>
           </div>
 
