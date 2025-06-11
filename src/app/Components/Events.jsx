@@ -147,8 +147,9 @@ export default function Events() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold mb-8">Alumni Event</h2>
             <div className="space-y-6">
@@ -156,8 +157,9 @@ export default function Events() {
                 <motion.div
                   key={event.id}
                   initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
+                  whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 1, delay: index * 0.3 }}
+                  viewport={{ once: true }}
                   className="flex gap-6 p-6 bg-white rounded-xl shadow-sm hover:shadow-md transition hover:bg-[#3F3D8C] hover:text-white py-10"
                 >
                   <div className="text-4xl font-bold text-[#3F3D8C]">
@@ -180,8 +182,9 @@ export default function Events() {
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.4 }}
+            viewport={{ once: true }}
           >
             <div className="flex items-center justify-between mb-8">
               <h2 className="text-3xl font-bold">Notice</h2>
@@ -192,8 +195,9 @@ export default function Events() {
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
+              viewport={{ once: true }}
               className="bg-white rounded-xl p-6 shadow-sm"
             >
               <div className="flex gap-4 mb-6">

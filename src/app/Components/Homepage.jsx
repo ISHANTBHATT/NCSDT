@@ -8,13 +8,15 @@ import Events from "./Events";
 import HowToApply from "./HowToApply";
 import Scholarship from "./Scholarship";
 import Testimonials from "./Testimonials";
+import Clients from "./Clients";
 
 export default function Homepage() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-hidden">
       <main>
         <Banner />
         <Features />
+        <Clients />
         <ApplyForm />
         <Campus />
         <Events />

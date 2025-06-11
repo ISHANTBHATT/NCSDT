@@ -5,13 +5,14 @@ import Link from "next/link";
 
 export default function Campus() {
   return (
-    <section className="py-16 bg-[#3F3D8C] text-white">
+    <section className="py-16 bg-[#3F3D8C] text-white overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
           >
             <h2 className="text-5xl font-bold mb-6">Campus Life</h2>
             <p className="mb-6 text-white/80">
@@ -42,8 +43,9 @@ export default function Campus() {
 
           <motion.div
             initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1 }}
+            viewport={{ once: true }}
             className="relative"
           >
             <img

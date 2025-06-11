@@ -47,9 +47,10 @@ export default function Testimonials() {
               <motion.div
                 key={currentTestimonial}
                 initial={{ x: -300, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 exit={{ x: 300, opacity: 0 }}
                 transition={{ type: "spring", stiffness: 260, damping: 20 }}
+                viewport={{ once: true }}
               >
                 <img
                   src={
@@ -65,9 +66,10 @@ export default function Testimonials() {
               <motion.div
                 key={currentTestimonial}
                 initial={{ x: 300, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
+                whileInView={{ x: 0, opacity: 1 }}
                 exit={{ x: -300, opacity: 0 }}
                 transition={{ type: "spring", stiffness: 260, damping: 20 }}
+                viewport={{ once: true }}
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(5)].map((_, i) => (

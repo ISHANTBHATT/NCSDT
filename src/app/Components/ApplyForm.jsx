@@ -139,8 +139,9 @@ export function ApplyForm() {
     <div className="container mx-auto px-4 py-20 mb-28">
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
+        viewport={{ once: true }}
         className="text-4xl font-bold text-center mb-16"
       >
         Apply Now
@@ -148,8 +149,9 @@ export function ApplyForm() {
       <div className="relative flex flex-col gap-8 items-center h-screen">
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1 }}
+          viewport={{ once: true }}
           className="relative w-full flex items-center justify-center"
         >
           <div className="absolute " />
@@ -162,8 +164,9 @@ export function ApplyForm() {
 
         <motion.form
           initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
+          viewport={{ once: true }}
           className="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg absolute -bottom-40"
         >
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -35,16 +35,18 @@ export function Features() {
     <div className="container mx-auto px-4 -mt-20 relative z-10">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
+        viewport={{ once: true }}
         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
       >
         {features.map((feature, index) => (
           <motion.div
             key={index}
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: index * 0.3 }}
+            viewport={{ once: true }}
             className={`${feature.color} p-6 rounded-lg text-white`}
           >
             <feature.icon className="h-8 w-8 mb-4" />

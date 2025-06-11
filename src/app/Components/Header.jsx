@@ -429,6 +429,7 @@ import {
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import Image from "next/image";
 
 const programmes = [
   {
@@ -654,6 +655,23 @@ export function Header() {
             </h1>
           </div>
 
+          <div className="mt-auto p-8">
+            <Link
+              href="https://wa.me/9896507237" // Replace with your actual number
+              target="_blank"
+              rel="noopener noreferrer"
+              className=" rounded-md flex items-center text-base font-medium text-[#8A0206] transition-colors mr-2"
+            >
+              <Image
+                src="/images/whatsapp-icon.png" // Place your image in public folder with this name
+                alt="WhatsApp"
+                width={50}
+                height={50}
+                className="mr-2 w-28 md:w-16"
+              />
+            </Link>
+          </div>
+
           {/* Mobile Menu Button */}
           <button
             className="sm:hidden z-50 relative p-2 rounded-lg bg-[#2A2A8F] text-white hover:bg-[#3A3A9F] transition-colors duration-200"
@@ -675,7 +693,7 @@ export function Header() {
 
         {/* Desktop Navigation */}
         <NavigationMenu className="hidden sm:block mt-4">
-          <NavigationMenuList className="gap-6">
+          <NavigationMenuList className="gap-0 lg:gap-6">
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
@@ -700,6 +718,13 @@ export function Header() {
               <Link href="/Gallery" legacyBehavior passHref>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   Gallery
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="Placement-Partner" legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                  Placement Partner
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
@@ -784,12 +809,38 @@ export function Header() {
               </Link>
 
               <Link
+                href="/Placement-Partner"
+                className="block px-4 py-3 text-white font-medium hover:bg-[#3A3A9F] transition-colors duration-200 border-b border-white/10"
+                onClick={closeMobileMenu}
+              >
+                Placement Partner
+              </Link>
+
+              <Link
                 href="/Contact"
                 className="block px-4 py-3 text-white font-medium hover:bg-[#3A3A9F] transition-colors duration-200"
                 onClick={closeMobileMenu}
               >
                 Contact
               </Link>
+
+              <div className="mt-auto p-8">
+                <Link
+                  href="https://wa.me/9896507237"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-full bg-[#25D366] text-white py-4 rounded-xl shadow-lg hover:scale-105 transition-transform"
+                >
+                  <Image
+                    src="/images/whatsapp-icon.png"
+                    alt="WhatsApp"
+                    width={32}
+                    height={32}
+                    className="mr-3"
+                  />
+                  Chat on WhatsApp
+                </Link>
+              </div>
             </nav>
           </div>
 

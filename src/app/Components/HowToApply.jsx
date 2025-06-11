@@ -97,25 +97,28 @@ export default function HowToApply() {
       <div className="container mx-auto px-4 relative">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="text-4xl font-bold text-center mb-12"
+          viewport={{ once: true }}
+          className="text-3xl md:text-4xl font-bold text-center mb-12"
         >
           How to Apply to National College for Skill Development and Training
         </motion.h2>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
+          viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
         >
           {steps.map((step, index) => (
             <motion.div
               key={step.id}
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3 + index * 0.2 }}
+              viewport={{ once: true }}
               className="bg-[#3F3D8C] text-white p-8 rounded-xl relative overflow-hidden"
             >
               <step.icon className="w-12 h-12 mb-4" />

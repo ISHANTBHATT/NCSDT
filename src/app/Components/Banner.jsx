@@ -238,9 +238,10 @@ export function Banner() {
           <motion.div
             key={index}
             initial={{ opacity: 0 }}
-            animate={{ opacity: index === current ? 1 : 0 }}
+            whileInView={{ opacity: index === current ? 1 : 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
             className={`absolute inset-0 `}
           >
             <img
@@ -256,14 +257,16 @@ export function Banner() {
       <div className="relative container mx-auto px-4 pt-6 sm:pt-20 z-20">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
+          whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
           className="max-w-2xl text-white"
         >
           <motion.p
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
+            viewport={{ once: true }}
             className="inline-flex items-center gap-2 bg-green-500 px-4 py-2 rounded-full text-sm mb-6"
           >
             <span className="size-2 bg-white rounded-full" />
@@ -271,8 +274,9 @@ export function Banner() {
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
+            viewport={{ once: true }}
             className="text-4xl sm:text-6xl font-bold mb-4"
           >
             Empowering
@@ -283,8 +287,9 @@ export function Banner() {
           </motion.h2>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.8 }}
+            viewport={{ once: true }}
             className="text-lg mb-8"
           >
             Remember to tailor the section names to fit the specific needs and
@@ -292,8 +297,9 @@ export function Banner() {
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1 }}
+            viewport={{ once: true }}
             className="flex items-center gap-6"
           >
             <Link href="/programmes/computers/bca">
@@ -311,8 +317,9 @@ export function Banner() {
           </motion.div>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 1.2 }}
+            viewport={{ once: true }}
             className="flex gap-2 mt-12"
           >
             {carouselImages.map((_, index) => (
