@@ -9,6 +9,7 @@ import HowToApply from "./HowToApply";
 import Scholarship from "./Scholarship";
 import Testimonials from "./Testimonials";
 import Clients from "./Clients";
+import CountUp from "./CountUp";
 
 export default function Homepage() {
   return (
@@ -17,6 +18,7 @@ export default function Homepage() {
         <Banner />
         <Features />
         <Clients />
+        <CountUp />
         <ApplyForm />
         <Campus />
         <Events />

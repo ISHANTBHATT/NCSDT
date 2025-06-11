@@ -502,7 +502,7 @@ function MultiLevelDropdown({ items, title }) {
       </button>
 
       {isOpen && (
-        <div className="absolute left-0 top-7 z-50 mt-2 min-w-[220px] rounded-md border bg-popover p-1 shadow-md">
+        <div className="absolute left-0 top-7 z-50 mt-2 min-w-[220px] rounded-md border bg-popover p-1 shadow-md bg-[#F39323]">
           {items.map((item) => (
             <div
               key={item.title}
@@ -514,7 +514,7 @@ function MultiLevelDropdown({ items, title }) {
                 <ChevronRight className="h-4 w-4" />
               </div>
               {activeSubmenu === item.title && (
-                <div className="absolute left-full top-0 z-50 min-w-[220px] rounded-md border bg-popover p-1 shadow-md">
+                <div className="absolute left-full top-0 z-50 min-w-[220px] rounded-md border bg-popover p-1 shadow-md bg-[#F39323]">
                   {item.items.map((subItem) => (
                     <Link
                       key={subItem.title}
@@ -640,7 +640,7 @@ export function Header() {
       </div>
 
       {/* Main Header */}
-      <div className="container mx-auto py-4 px-4">
+      <div className="container mx-auto pt-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-4 md:gap-8">
             <Link href="/">
@@ -692,7 +692,7 @@ export function Header() {
         </div>
 
         {/* Desktop Navigation */}
-        <NavigationMenu className="hidden sm:block mt-4">
+        <NavigationMenu className="hidden sm:block mt-4 max-w-full justify-items-start px-4 py-2 bg-[#F39323] text-white">
           <NavigationMenuList className="gap-0 lg:gap-6">
             <NavigationMenuItem>
               <Link href="/" legacyBehavior passHref>

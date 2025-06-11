@@ -164,6 +164,7 @@ export default function PlacementPartners() {
 //   CardTitle,
 //   CardDescription,
 // } from "@/components/ui/card";
+// import { useEffect, useState } from "react";
 
 // export default function PlacementPartners() {
 //   const partners = [
@@ -199,7 +200,7 @@ export default function PlacementPartners() {
 //         </div>
 
 //         {/* Stats Section with animated counters */}
-//         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
+//         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
 //           {[
 //             {
 //               value: 95,
@@ -241,7 +242,7 @@ export default function PlacementPartners() {
 //               </CardContent>
 //             </Card>
 //           ))}
-//         </div> */}
+//         </div>
 
 //         {/* Partners Logo Section with 3D effect */}
 //         <div className="bg-white/90 backdrop-blur-sm rounded-3xl shadow-2xl p-8 md:p-12 border border-white">
@@ -487,9 +488,9 @@ export default function PlacementPartners() {
 
 // // Counter animation component
 // function CountUp({ end, duration = 2 }) {
-//   const [count, setCount] = React.useState(0);
+//   const [count, setCount] = useState(0);
 
-//   React.useEffect(() => {
+//   useEffect(() => {
 //     let start = 0;
 //     const increment = end / (duration * 60); // 60fps
 
